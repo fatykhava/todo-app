@@ -141,6 +141,7 @@ button.wr-pic {
   transform: translate(-50%, -50%);
   z-index: 100;
   padding: 20px;
+  width: 560px;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 0 10px #000;
@@ -152,7 +153,7 @@ button.wr-pic {
 
   & textarea {
     min-width: 200px;
-    width: 500px;
+    width: 90%;
     height: 100px;
     margin: 20px 20px 50px;
     padding: 20px;
@@ -190,6 +191,12 @@ button.wr-pic {
   }
 }
 
+@media (max-width: 670px) {
+  .modal {
+    width: 80%;
+  }
+}
+
 @media (max-width: 600px) {
   #root {
     padding-top: 70px;
@@ -208,8 +215,8 @@ button.wr-pic {
     margin-top: 20px;
   }
   .add-btn {
-    position: relative;
-    top: -35px;
+    position: fixed;
+    top: 85px;
     left: 40px;
   }
   .wr-note {
@@ -228,8 +235,13 @@ button.wr-pic {
       margin-right: 0;
     }
   }
+
+  .wr-content {
+    padding-top: 95px;
+  }
+
   .add-btn {
-    top: 5px;
+    top: 125px;
     left: 15px;
   }
 }
