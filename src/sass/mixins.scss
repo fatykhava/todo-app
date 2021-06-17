@@ -1,0 +1,23 @@
+@mixin flex ($align: center, $justify: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin absolute-right ($padding: 10px) {
+  position: absolute;
+  top: $padding;
+  right: $padding;
+}
+
+@mixin fixed ($padding: 50%) {
+  position: fixed;
+  top: $padding;
+  left: $padding;
+}
+
+@mixin absolute-left ($padding: 10px) {
+  position: absolute;
+  top: $padding;
+  left: $padding;
+}
