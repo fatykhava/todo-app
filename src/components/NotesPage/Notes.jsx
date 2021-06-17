@@ -18,7 +18,8 @@ const NoteContent = (props) => {
   let notes = [];
 
   const createNoteArr = (notes) => {
-    return notes.map(note => <NoteItem key={note.id} id={note._id} note={note.value}  tags={note.tags} date={note.addDate}
+    return notes.map(note => <NoteItem key={note.id} id={note._id} note={note.value} tags={note.tags}
+                                       date={note.addDate}
                                        deleteNote={props.deleteNote} toggleModal={props.toggleModal}/>);
   }
 
@@ -39,20 +40,22 @@ const NoteContent = (props) => {
   }
 
   return (
-    <div className="wr-content">
+    <>
       <button className="add-btn" onClick={() => toggleModal()}>Add note</button>
-      <h1>TO DO LIST APP</h1>
-      <div className="notes-container">
-        {notes}
+      <div className="wr-content">
+        <h1>TO DO LIST APP</h1>
+        <div className="notes-container">
+          {notes}
+        </div>
+        <div className="wr-filter">
+          <input type="text" ref={tagText} onChange={onFilterChange} value={props.filterValue}/>
+          <button onClick={props.filterNotes}>Find tag</button>
+          <button className="wr-pic" onClick={() => props.deleteFilter()}>
+            <img src={trashPic} alt="trash"/>
+          </button>
+        </div>
       </div>
-      <div className="wr-filter">
-        <input type="text" ref={tagText} onChange={onFilterChange} value={props.filterValue}/>
-        <button onClick={props.filterNotes}>Find tag</button>
-        <button className="wr-pic" onClick={()=>props.deleteFilter()}>
-          <img src={trashPic} alt="trash"/>
-        </button>
-      </div>
-    </div>
+    </>
   )
     ;
 }

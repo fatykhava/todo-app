@@ -199,6 +199,7 @@ button.wr-pic {
 
 @media (max-width: 600px) {
   #root {
+    width: 100%;
     padding-top: 70px;
   }
   body h1 {
@@ -215,8 +216,8 @@ button.wr-pic {
     margin-top: 20px;
   }
   .add-btn {
-    position: fixed;
-    top: 85px;
+    position: relative;
+    top: 15px;
     left: 40px;
   }
   .wr-note {
@@ -237,11 +238,11 @@ button.wr-pic {
   }
 
   .wr-content {
-    padding-top: 95px;
+    padding-top: 75px;
   }
 
   .add-btn {
-    top: 125px;
+    top: 55px;
     left: 15px;
   }
 }
