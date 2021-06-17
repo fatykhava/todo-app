@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todo-app/static/css/main.49b00470.chunk.css",
+    "main.js": "/todo-app/static/js/main.f55d10da.chunk.js",
+    "main.js.map": "/todo-app/static/js/main.f55d10da.chunk.js.map",
+    "runtime-main.js": "/todo-app/static/js/runtime-main.83bd9b52.js",
+    "runtime-main.js.map": "/todo-app/static/js/runtime-main.83bd9b52.js.map",
+    "static/js/2.7abab03f.chunk.js": "/todo-app/static/js/2.7abab03f.chunk.js",
+    "static/js/2.7abab03f.chunk.js.map": "/todo-app/static/js/2.7abab03f.chunk.js.map",
+    "static/js/3.d68df73b.chunk.js": "/todo-app/static/js/3.d68df73b.chunk.js",
+    "static/js/3.d68df73b.chunk.js.map": "/todo-app/static/js/3.d68df73b.chunk.js.map",
+    "index.html": "/todo-app/index.html",
+    "static/css/main.49b00470.chunk.css.map": "/todo-app/static/css/main.49b00470.chunk.css.map",
+    "static/js/2.7abab03f.chunk.js.LICENSE.txt": "/todo-app/static/js/2.7abab03f.chunk.js.LICENSE.txt",
+    "static/media/trash-solid.fb7bc740.png": "/todo-app/static/media/trash-solid.fb7bc740.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83bd9b52.js",
+    "static/js/2.7abab03f.chunk.js",
+    "static/css/main.49b00470.chunk.css",
+    "static/js/main.f55d10da.chunk.js"
+  ]
+}
